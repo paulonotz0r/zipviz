@@ -1,9 +1,5 @@
-import Maplibre from "@/components/map";
+import Maplibre from "@/components/Map";
 
 export default function Home() {
-    return (
-        <div className="flex flex-col items-center justify-center min-h-screen py-2">
-            <Maplibre />
-        </div>
-    );
+    return <Maplibre />;
 }

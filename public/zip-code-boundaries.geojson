@@ -1,0 +1,21 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": { "zip": "10001", "name": "New York" },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-74.005974, 40.712776],
+                        [-73.995974, 40.712776],
+                        [-73.995974, 40.722776],
+                        [-74.005974, 40.722776],
+                        [-74.005974, 40.712776]
+                    ]
+                ]
+            }
+        }
+    ]
+}
