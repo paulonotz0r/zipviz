@@ -1,8 +1,9 @@
+import Maplibre from "@/components/map";
+
 export default function Home() {
     return (
-        <div>
-            <h1>ZipViz</h1>
-            <p>Visualizing Zip Code Data</p>
+        <div className="flex flex-col items-center justify-center min-h-screen py-2">
+            <Maplibre />
         </div>
     );
 }
