@@ -4,7 +4,28 @@ ZipViz - Visualizing Zip Code Data
 
 ## Getting Started
 
-First, run the development server:
+> [!IMPORTANT] 
+> Due to security reasons, you'll need to create a Maplibre account and get an API key to use on https://www.maptiler.com/ to run the app.
+
+
+```bash
+# Create a .env file in the root directory and add the following line
+NEXT_PUBLIC_MAPTILER_API_KEY=your-api-key
+```
+
+Install the dependencies:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm
+# or
+bun
+```
+
+And run the development server:
 
 ```bash
 npm run dev
